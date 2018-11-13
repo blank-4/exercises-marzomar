@@ -22,7 +22,7 @@ aside>h1 {
 span[title="Lorem Ipsum"] {
     font-style: italic;
 }
-p {
+*p {
     text-align: justify;
 }
 .title {
