@@ -13,10 +13,10 @@ ul li {
 .submenu a {
     text-decoration: none;
 }
-aside>h1 {
+aside h1 {
     font-size: small;
 }
-.lorem span {
+p.lorem span {
     font-weight: bold;
 }
 span[title="Lorem Ipsum"] {
