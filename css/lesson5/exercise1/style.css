@@ -1,17 +1,17 @@
 @media (max-width: 200px) {
-p   {
+    p {
     color: red;
     } 
 }
 
-@media (min-width: 200px) and (max-width:600px){
-p   {
+@media (min-width: 200px) and (max-width:600px) {
+    p {
     color:yellow;
     }
 }
 
-@media (min-width:600px){
-p    {
-    color: green;
+@media (min-width:600px) {
+    p {
+        color: green;
     }
 }
