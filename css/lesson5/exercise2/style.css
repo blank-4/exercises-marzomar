@@ -1,0 +1,76 @@
+
+header{
+    background-color: blue;
+    grid-area: head;
+}
+
+nav{
+    background-color: red;
+    grid-area: nav;
+}
+li{
+    display: inline-block;
+}
+
+.summary{
+    background-color: purple;
+    grid-area: som;
+}
+
+main{
+    background-color: brown;
+    grid-area: menu;
+}
+
+.ads{
+    background-color:green;
+    grid-area: pub;
+}
+
+footer{
+    background-color: black;
+    grid-area: foot;
+}
+
+.wrapper{
+    grid-area: cont;
+}
+
+@media (min-width:900px){
+    .wrapper{
+
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-areas:
+    "som menu pub";
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    li{
+        display: block;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 20%;
+        grid-template-areas:
+        "menu pub";
+    }
+    .summary{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    nav{
+        display: none;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-rows: 10% 1fr 20%;
+        grid-template-areas: 
+        "pub"
+        "som"
+        "menu";
+    }
+}
