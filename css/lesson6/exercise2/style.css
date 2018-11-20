@@ -1,0 +1,18 @@
+div{
+    height: 30px;
+    width: 1000px;
+    background-color: grey;
+}
+
+span{
+    display: inline-block;
+    height: 30px;
+    width: 0px;
+    background-color: red;
+    animation: barre 2s linear 0s infinite;
+}
+
+@keyframes barre {
+    0% {width:0px;}
+    100% {width:1000px;}
+}
