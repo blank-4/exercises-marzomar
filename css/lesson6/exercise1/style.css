@@ -1,0 +1,28 @@
+#sec1 {
+    display: none;
+}
+
+#sec1:target{
+    display: block;
+    background-color: blue;
+}
+
+#sec2 {
+    display: none;
+}
+
+#sec2:target{
+    display: block;
+    background-color: red;
+}
+
+nav:hover{
+    background-color: green;
+    transition: background-color 300ms;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+    transition: color 300ms;
+}
+
