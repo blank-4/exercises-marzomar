@@ -6,15 +6,13 @@ c'est ce qu'on appelle un "fizzbuzz" ! ( sans blague ... )
 */
 
 for (var i =1; i <= 50; i++) {
-   if (i%7==0) {
+    if (i%7==0) {
        console.log("fizz");
-
-   } else if (i%5==0) {
+    } 
+    else if (i%5==0) {
        console.log("buzz");
     }
     else {
         console.log(i);
     }
 }
-    
-      
