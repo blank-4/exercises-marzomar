@@ -1,5 +1,5 @@
 
- var heure = 12
+ var heure = 12;
 
  if (heure < 10) {
      console.log("c'est le matin");
