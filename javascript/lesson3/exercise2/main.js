@@ -8,7 +8,7 @@ Appelez cette fonction en donnant une valeur aux arguments (votre garniture et p
  */
 
  function commande(garniture,pate) {
-    console.log("commande : une pizza"+garniture+pate);
+    console.log("commande : une pizza"+" "+garniture+" "+pate);
 }
 
 commande("fromage","fine");
