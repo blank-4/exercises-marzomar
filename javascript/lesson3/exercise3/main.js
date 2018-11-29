@@ -18,7 +18,7 @@ et un console.log pour afficher :
  var porte = "porte de droite"
  var monappartement = function() {
      var boiteAuLettres = 34;
-     console.log("etage :"+" "+etage+" "+"porte :"+porte+"boite au lettre :"+boiteAuLettres)
+     console.log("etage :"+" "+etage+" ,"+"porte :"+" "+porte+" ,"+"boite au lettre :"+" "+boiteAuLettres)
  }
 
  monappartement();
