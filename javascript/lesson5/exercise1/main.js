@@ -12,5 +12,7 @@ function cache() {
 
 function couleur () { 
     var color = ["blue", "red", "yellow", "green"];
-    document.getElementById("texte").style.color = color [Math.floor(Math.random()*4)]
+    var random = color [Math.floor(Math.random()*4)];
+    document.getElementById("texte").style.color = random;
+    console.log(random);
 }
