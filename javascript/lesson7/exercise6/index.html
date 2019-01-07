@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <style>
-        .valid{
-            color: red;
-        }
-    </style>
 </head>
 <body>
     <div id="app">
-        <input type="checkbox" v-model="success">
         <input type="text" v-model="monTexte">
-        <p :class="maProprieteComputed">{{ monTexte }}</p>
+        <button @click="gifs()">recherche </button>
+        <section>
+            <h1>"Résultats de recherche pour {{ monTexte }} où {{ monTexte }} est le contenu du champ texte.</h1>
+            <img src="" alt="">
+        </section>
     </div>
     <script src="main.js"></script>
 </body>

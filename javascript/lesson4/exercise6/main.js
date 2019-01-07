@@ -83,3 +83,18 @@ function chiffrer(str, key) {
 
 console.log(chiffrer("BI%N",5));
 
+function chiffrer(str, key) {
+    var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    str = str.toLowerCase();
+    var res = "";
+    for (var i = 0; i < str.length; i++) {
+        var l = str[i]
+        var index = alphabet.indexOf(l);
+        index = index + key;
+        var nouvelleLettre = alphabet[index]; 
+        res = res + nouvelleLettre;
+    }
+    return res;
+    
+    
+}
