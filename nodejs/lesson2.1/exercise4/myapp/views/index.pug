@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p ip:
+   span= data.ip
+  p host:
+   span= data.headers.host
+  p user-agent:
+   span= data.get('user-agent')
+  p referer:
+   span= data.headers.referer
+  p headers en ligne:
+   span=data.rawHeaders
