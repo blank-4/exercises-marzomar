@@ -22,3 +22,4 @@ db.exercise1.insert({ _id: 11, "name.firt": "Linus", "name.last": "Torvalds"})
 db.exercise1.insert({ _id: 12, "name.firt": "Steve", "name.last": "Jobs"})
 - Ah ouais en fait non, supprimez la
  db.exercise1.findOneAndDelete({_id:12})
+test
