@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  each file in files
+    p This is #{file.path}
+      a(href=file.path) fichier
