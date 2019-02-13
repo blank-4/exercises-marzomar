@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= user
+  h2= pass
+  form(action="/form" method="GET")
+    input(type="text" name="user" value="" )
+    input(type="password" name="password" value="" ) 
+    input(type="submit" value="Envoyer !") 
+  h1= userpost
+  h2= passpost
+  form(action="/form" method="POST")
+    input(type="text" name="user" value="" )
+    input(type="password" name="password" value="" ) 
+    input(type="submit" value="Envoyer !") 
+
